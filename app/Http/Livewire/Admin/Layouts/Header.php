@@ -8,6 +8,7 @@ class Header extends Component
 {
     public function render()
     {
-        return view('livewire.admin.layouts.header');
+        $today_date = verta()->format('%d %B %Y'); 
+        return view('livewire.admin.layouts.header', compact('today_date'));
     }
 }

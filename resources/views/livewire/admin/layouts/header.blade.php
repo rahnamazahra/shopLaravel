@@ -19,9 +19,9 @@
             <!-- Left Side Nav -->
             <ul class="left-side-navbar d-flex align-items-center">
                 <li class="hide-phone app-search">
-                    <div class="dashboard-clock ltr">
-                        <span>دوشنبه 15 آبان</span><br>
-                        <ul class="d-flex align-items-center justify-content-end">
+                    <div class="dashboard-clock">
+                        <span> {{ $today_date }} </span><br>
+                        <ul class="d-flex align-items-center justify-content-end ltr">
                             <li id="hours">12</li>
                             <li>:</li>
                             <li id="min">10</li>
