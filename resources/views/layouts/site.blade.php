@@ -7,9 +7,9 @@
 </head>
 
 <body>
-    <livewire:site.layouts.header>
+    @livewire('site.layouts.header')
     {{ $slot }}
-    <livewire:site.layouts.footer>
+    @livewire('site.layouts.footer')
     @include('livewire.site.layouts.scripts')
 </body>
 </html>
